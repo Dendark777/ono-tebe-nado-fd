@@ -17,7 +17,7 @@ a {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    padding: 92px 50px;
+    padding: 92px 50px 95px;
 }
 
 .header__menu {
@@ -56,11 +56,12 @@ a {
 
 .address {
     display: flex;
+    font-style: normal;
     flex-direction: column;
     align-items: flex-start;
     font-size: 18px;
     max-width: 240px;
-    line-height: 1.5;
+    line-height: 1.4;
 }
 
 .header__address {
@@ -90,7 +91,7 @@ a {
     font-weight: 700;
     text-transform: uppercase;
     line-height: 1.15;
-    margin-bottom: 110px;
+    margin-bottom: 108px;
 }
 
 .accent-span {
@@ -124,23 +125,25 @@ a {
 
 .cover__description-text {
     font-size: 22px;
-    letter-spacing: 3px;
-    word-spacing: 5px;
+    font-style: Regular;
+    word-spacing: 18.5px;
     text-transform: uppercase;
+    padding-left: 22px;
 }
 
 .bet-button {
     padding: 12px 32px;
-    border: 1px solid #FFF;
+    border: 1px solid currentColor;
     background: transparent;
     color: #FFF;
     font-size: 22px;
     text-transform: uppercase;
     cursor: pointer;
+    margin: 0 0 0 20px;
 }
 
 .lots {
-    padding: 175px 25px 120px 23px;
+    padding: 177px 25px 120px 23px;
 }
 
 .lots__heading {
@@ -177,7 +180,7 @@ a {
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
-    padding: 50px 40px;
+    padding: 48px 40px;
     color: #FFF;
     background-size: cover;
     background-position: center;
@@ -200,10 +203,14 @@ a {
     font-size: 22px;
     text-transform: uppercase;
     text-decoration: underline;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.2;
 }
 
 .card__text {
     font-size: 20px;
+    line-height: 1.2;
 }
 
 .lots__look-more-link {
